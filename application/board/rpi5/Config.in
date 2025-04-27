@@ -1,0 +1,4 @@
+config BR2_TARGET_BOARD_RPI_5
+    bool "Customize Raspberry Pi 5"
+    help
+      Use this option to build a custom Raspberry Pi 5 image.
