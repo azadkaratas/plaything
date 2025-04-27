@@ -1,0 +1,7 @@
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet dhcp
+    # Set static IP address if DHCP fails
+    post-up ip addr add 192.168.100.11/24 dev eth0 || true
