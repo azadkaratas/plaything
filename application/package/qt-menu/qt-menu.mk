@@ -1,0 +1,7 @@
+QT_MENU_VERSION = 1.0
+QT_MENU_SITE = $(BR2_EXTERNAL_APPLICATION_PATH)/package/qt-menu
+QT_MENU_SITE_METHOD = local
+QT_MENU_DEPENDENCIES = qt6base qt6declarative
+QT_MENU_INSTALL_TARGET = YES
+
+$(eval $(cmake-package))

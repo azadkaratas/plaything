@@ -1,3 +1,7 @@
 menu "Select the board"
     source "$BR2_EXTERNAL_APPLICATION_PATH/board/rpi5/Config.in"
 endmenu
+
+menu "Target packages"
+    source "$BR2_EXTERNAL_APPLICATION_PATH/package/qt-menu/Config.in"
+endmenu
