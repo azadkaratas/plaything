@@ -1,0 +1,31 @@
+#!/bin/sh
+case "$1" in
+    start)
+        printf "Starting modules script:"
+        modprobe pwm_fan
+        if [ $? -eq 0 ]; then
+            echo "OK"
+        else
+            echo "FAIL"
+        fi
+        ;;
+    stop)
+        printf "Stopping modules script:"
+        rmmod pwm_fan
+        if [ $? -eq 0 ]; then
+            echo "OK"
+        else
+            echo "FAIL"
+        fi
+        ;;
+    restart)
+        $0 stop
+        $0 start
+        ;;
+    *)
+        echo "Usage: $0 {start|stop|restart}"
+        exit 1
+        ;;
+esac
+
+exit 0
