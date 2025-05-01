@@ -1,5 +1,15 @@
 <RCC>
     <qresource prefix="/">
         <file>qml/main.qml</file>
+        <file>qml/Games.qml</file>
+        <file>qml/Store.qml</file>
+        <file>qml/Settings.qml</file>
+        <file>bg.jpg</file>
+        <file>installedGames.json</file>
+        <file>installedGames/NBA 2K25/images/featured.jpg</file>
+        <file>installedGames/Indiana Jones and the Great Circle/images/featured.jpg</file>
+        <file>installedGames/Forza Horizon 5/images/featured.jpg</file>
+        <file>installedGames/DEATH STRANDING 2/images/featured.jpg</file>
+        <file>installedGames/Assassin's Creed Shadows/images/featured.jpg</file>   
     </qresource>
 </RCC>

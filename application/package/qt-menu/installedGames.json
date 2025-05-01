@@ -1,0 +1,84 @@
+{
+    "games": [
+        {
+            "name": "NBA 2K25",
+            "price": 20.99,
+            "description": "Experience the next evolution of basketball simulation with NBA 2K25. Featuring improved graphics, enhanced gameplay mechanics, and the latest rosters.",
+            "featuredImage": "installedGames/NBA 2K25/images/featured.jpg",
+            "galleryImages": [
+                "installedGames/NBA 2K25/images/gallery1.jpg",
+                "installedGames/NBA 2K25/images/gallery2.jpg",
+                "installedGames/NBA 2K25/images/gallery3.jpg"
+            ],
+            "size": "150 GB",
+            "rating": 4.5,
+            "storeLink": "https://store.playstation.com/en-us/product/UP1001-PPSA09112_00-NBA2K25STANDARD",
+            "genre": "Sports",
+            "multiplayer": true
+        },
+        {
+            "name": "Assassin's Creed Shadows",
+            "price": 69.99,
+            "description": "Embark on a new adventure in feudal Japan with Assassin's Creed Shadows. Experience the rich history and culture of the samurai era.",
+            "featuredImage": "installedGames/Assassin's Creed Shadows/images/featured.jpg",
+            "galleryImages": [
+                "installedGames/Assassin's Creed Shadows/images/gallery1.jpg",
+                "installedGames/Assassin's Creed Shadows/images/gallery2.jpg",
+                "installedGames/Assassin's Creed Shadows/images/gallery3.jpg"
+            ],
+            "size": "180 GB",
+            "rating": 4.8,
+            "storeLink": "https://store.playstation.com/en-us/product/UP0001-PPSA09114_00-ACSHADOWSSTANDARD",
+            "genre": "Action-Adventure",
+            "multiplayer": false
+        },
+        {
+            "name": "Indiana Jones and the Great Circle",
+            "price": 69.99,
+            "description": "Embark on an epic adventure as Indiana Jones in this new action-adventure game from MachineGames.",
+            "featuredImage": "installedGames/Indiana Jones and the Great Circle/images/featured.jpg",
+            "galleryImages": [
+                "installedGames/Indiana Jones and the Great Circle/images/gallery1.jpg",
+                "installedGames/Indiana Jones and the Great Circle/images/gallery2.jpg",
+                "installedGames/Indiana Jones and the Great Circle/images/gallery3.jpg"
+            ],
+            "size": "100 GB",
+            "rating": 4.7,
+            "storeLink": "https://store.playstation.com/en-us/product/UP0001-PPSA09119_00-INDIANAJONESSTANDARD",
+            "genre": "Action-Adventure",
+            "multiplayer": false
+        },
+        {
+            "name": "Forza Horizon 5",
+            "price": 59.99,
+            "description": "Experience the ultimate open-world racing game in Forza Horizon 5. Explore Mexico's diverse landscapes and race in stunning environments.",
+            "featuredImage": "installedGames/Forza Horizon 5/images/featured.jpg",
+            "galleryImages": [
+                "installedGames/Forza Horizon 5/images/gallery1.jpg",
+                "installedGames/Forza Horizon 5/images/gallery2.jpg",
+                "installedGames/Forza Horizon 5/images/gallery3.jpg"
+            ],
+            "size": "170 GB",
+            "rating": 4.8,
+            "storeLink": "https://store.playstation.com/en-us/product/UP0001-PPSA09120_00-FORZAHORIZON5STANDARD",
+            "genre": "Racing",
+            "multiplayer": true
+        },
+        {
+            "name": "DEATH STRANDING 2",
+            "price": 79.99,
+            "description": "From legendary game creator Hideo Kojima comes DEATH STRANDING 2, a new action game that will redefine the genre.",
+            "featuredImage": "installedGames/DEATH STRANDING 2/images/featured.jpg",
+            "galleryImages": [
+                "installedGames/DEATH STRANDING 2/images/gallery1.jpg",
+                "installedGames/DEATH STRANDING 2/images/gallery2.jpg",
+                "installedGames/DEATH STRANDING 2/images/gallery3.jpg"
+            ],
+            "size": "190 GB",
+            "rating": 4.9,
+            "storeLink": "https://store.playstation.com/en-us/product/UP9000-PPSA09121_00-DEATHSTRANDING2DELUXE",
+            "genre": "Action",
+            "multiplayer": false
+        }
+    ]
+} 

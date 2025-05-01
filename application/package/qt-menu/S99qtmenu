@@ -1,0 +1,35 @@
+#!/bin/sh
+
+DAEMON=/usr/bin/qt-menu
+PIDFILE=/var/run/qtmenu.pid
+
+case "$1" in
+    start)
+        printf "Starting qt-menu: "
+        start-stop-daemon --start --quiet --background --pidfile "$PIDFILE" --exec "$DAEMON" -- -platform linuxfb:fb=/dev/fb0
+        if [ $? -eq 0 ]; then
+            echo "OK"
+        else
+            echo "FAIL"
+        fi
+        ;;
+    stop)
+        printf "Stopping qt-menu: "
+        start-stop-daemon --stop --quiet --pidfile "$PIDFILE"
+        if [ $? -eq 0 ]; then
+            echo "OK"
+        else
+            echo "FAIL"
+        fi
+        ;;
+    restart)
+        $0 stop
+        $0 start
+        ;;
+    *)
+        echo "Usage: $0 {start|stop|restart}"
+        exit 1
+        ;;
+esac
+
+exit 0
