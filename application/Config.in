@@ -5,3 +5,7 @@ endmenu
 menu "Target packages"
     source "$BR2_EXTERNAL_APPLICATION_PATH/package/qt-menu/Config.in"
 endmenu
+
+menu "Custom Packages"
+    source "$BR2_EXTERNAL_APPLICATION_PATH/package/firmware-updater/Config.in"
+endmenu
