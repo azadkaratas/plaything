@@ -5,3 +5,9 @@ auto eth0
 iface eth0 inet dhcp
     # Set static IP address if DHCP fails
     post-up ip addr add 192.168.100.11/24 dev eth0 || true
+
+auto wlan0
+iface wlan0 inet dhcp
+    pre-up ip link set wlan0 up || true
+    pre-up wpa_supplicant -B -Dnl80211 -iwlan0 -c/etc/wpa_supplicant.conf || true
+    post-down killall -q wpa_supplicant || true
